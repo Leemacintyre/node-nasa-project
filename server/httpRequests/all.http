@@ -1,0 +1,21 @@
+GET http://localhost:8000/v1/planets
+
+###
+
+GET http://localhost:8000/v1/launches
+
+###
+POST http://localhost:8000/v1/launches
+Content-Type: application/json
+
+{
+    "mission": "ZMT155",
+    "rocket": "ZTM Experimental IS1",
+    "target": "Kepler-186 f",
+    "launchDate": "January 17, 2030"
+}
+###
+
+GET https://api.spacexdata.com/v4/launches
+
+###
